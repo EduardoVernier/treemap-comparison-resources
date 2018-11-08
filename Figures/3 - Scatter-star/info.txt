@@ -1,0 +1,3 @@
+x axis = stability average = (ct + rpc) / 2
+y axis = aspect ratio average = (ar + weighted_ar) / 2
+
