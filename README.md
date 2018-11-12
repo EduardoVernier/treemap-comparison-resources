@@ -6,7 +6,7 @@ The `./Datasets` directory contains the dynamic hierarchy datasets used in the b
 `./Treemapping Code` has the Java implementations of Approximate (APP), Hilbert (HIL), Local Moves using zero (LM0) or four (LM4) local moves, Moore (MOO), Ordered with Pivot-by-Middle (PBM), Pivot-by-Size (PBZ), and Pivot-by-Split (PBS),
 Slice-and-Dice (SND), Spiral (SPI), Split (SPI), Squarified (SQR), and Strip (STR).
 
-`./Metrics and Plots Code`
+`./Metrics and Plots Code` has the Python code that computes the metric results for the treemap layouts and generates the plots seen in the paper. 
 
 `./Figures` contains the plots for the 46 representatives datasets in the paper.
 
