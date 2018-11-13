@@ -34,6 +34,59 @@ To generate Figures 8 (Matrix) and 9 (Star-glyph scatterplot), run `python3 Main
 
 The Rank Matrix (Fig 10) is generated nunnig the `Notebooks/RankMatrix.ipynb` file.
 
+
+## Dataset short description
+| Name                          	| Source                	| Description                                                                                                              	|
+|-------------------------------	|-----------------------	|--------------------------------------------------------------------------------------------------------------------------	|
+| f-wb-EN.ATM.CO2E.LF.ZS        	| WorldBank (flattened) 	| CO2 emissions from liquid fuel consumption (% of total)                                                                  	|
+| f-wb-TM.VAL.MANF.ZS.UN        	| WorldBank (flattened) 	| Manufactures imports (% of merchandise imports)                                                                          	|
+| f-wb-SE.PRM.PRS5.ZS           	| WorldBank (flattened) 	| Persistence to grade 5, total (% of cohort)                                                                              	|
+| DutchNames                    	| Meertens Instituut    	| First name of Dutch newborns each year.                                                                                  	|
+| f-wb-MS.MIL.XPND.ZS           	| WorldBank (flattened) 	| Military expenditure (% of central government expenditure)                                                               	|
+| f-wb-SE.SEC.CMPT.LO.MA.ZS     	| WorldBank (flattened) 	| Lower secondary completion rate, male (% of relevant age group)                                                          	|
+| f-wb-NY.ADJ.SVNG.GN.ZS        	| WorldBank (flattened) 	| Adjusted net savings, including particulate emission damage (% of GNI)                                                   	|
+| f-wb-DT.MAT.OFFT              	| WorldBank (flattened) 	| Average maturity on new external debt commitments, official (years)                                                      	|
+| f-wb-GC.TAX.GSRV.RV.ZS        	| WorldBank (flattened) 	| Taxes on goods and services (% of revenue)                                                                               	|
+| f-wb-EN.ATM.CO2E.KT           	| WorldBank (flattened) 	| CO2 emissions (kt)                                                                                                       	|
+| f-wb-IS.RRS.TOTL.KM           	| WorldBank (flattened) 	| Rail lines (total route-km)                                                                                              	|
+| f-wb-EN.ATM.METH.EG.KT.CE     	| WorldBank (flattened) 	| Methane emissions in energy sector (thousand metric tons of CO2 equivalent)                                              	|
+| WorldbankHIV                  	| WorldBank (legacy)    	| Prevalence of HIV, total (% of population ages 15-49)                                                                    	|
+| f-wb-TX.VAL.MMTL.ZS.UN        	| WorldBank (flattened) 	| Ores and metals exports (% of merchandise exports)                                                                       	|
+| f-wb-EN.CO2.BLDG.ZS           	| WorldBank (flattened) 	| CO2 emissions from residential buildings and commercial and public services (% of total fuel combustion)                 	|
+| f-wb-DT.TDS.PNGC.CD           	| WorldBank (flattened) 	| PNG, commercial banks and other creditors (TDS, current US$)                                                             	|
+| f-wb-FR.INR.RISK              	| WorldBank (flattened) 	| Risk premium on lending (lending rate minus treasury bill rate, %)                                                       	|
+| f-wb-TM.VAL.MRCH.R1.ZS        	| WorldBank (flattened) 	| Merchandise imports from low- and middle-income economies in East Asia & Pacific (% of total merchandise imports)        	|
+| wb-EN.URB.MCTY.TL.ZS          	| WorldBank             	| Population in urban agglomerations of more than 1 million (% of total population)                                        	|
+| wb-TM.VAL.MANF.ZS.UN          	| WorldBank             	| Manufactures imports (% of merchandise imports)                                                                          	|
+| wb-IQ.SCI.PRDC                	| WorldBank             	| Periodicity and timeliness assessment of statistical capacity (scale 0 - 100)                                            	|
+| WorldBankExports              	| WorldBank (legacy)    	| Goods exports (BoP, current US$)                                                                                         	|
+| wb-GC.XPN.TOTL.GD.ZS          	| WorldBank             	| Expense (% of GDP)                                                                                                       	|
+| wb-EN.CO2.MANF.ZS             	| WorldBank             	| CO2 emissions from manufacturing industries and construction (% of total fuel combustion)                                	|
+| wb-DT.TDS.MLAT.PG.ZS          	| WorldBank             	| Multilateral debt service (% of public and publicly guaranteed debt service)                                             	|
+| wb-DT.GRE.OFFT                	| WorldBank             	| Average grant element on new external debt commitments, official (%)                                                     	|
+| wb-SH.VAC.TTNS.ZS             	| WorldBank             	| Newborns protected against tetanus (%)                                                                                   	|
+| wb-EN.POP.DNST                	| WorldBank             	| Population density (people per sq. km of land area)                                                                      	|
+| wb-IS.RRS.TOTL.KM             	| WorldBank             	| Rail lines (total route-km)                                                                                              	|
+| GitHubAnimate                 	| GitHub (legacy)       	| Lines of code count for 50 revisions between October 2011 and May 2017 of https://github.com/daneden/animate.css/        	|
+| UNContradeCoffee              	| UN                    	| UN comtrade database for yearly coffee consumption.                                                                      	|
+| wb-IS.RRS.GOOD.MT.K6          	| WorldBank             	| Railways, goods transported (million ton-km)                                                                             	|
+| wb-BX.GSR.CMCP.ZS             	| WorldBank             	| Communications, computer, etc. (% of service exports, BoP)                                                               	|
+| wb-EN.ATM.NOXE.ZG             	| WorldBank             	| Nitrous oxide emissions (% change from 1990)                                                                             	|
+| wb-FR.INR.RISK                	| WorldBank             	| Risk premium on lending (lending rate minus treasury bill rate, %)                                                       	|
+| gh-animate.css-m              	| GitHub                	| Lines of code count for monthly revisions from https://github.com/daneden/animate.css/                                   	|
+| MoviesHC9Y7M                  	| Movielens             	| 4 level hierarchy with cumulative count over 9 years with 7 month aggregation periods.                                   	|
+| gh-swift-algorithm-club-m     	| GitHub                	| Lines of code count for monthly revisions from https://github.com/raywenderlich/swift-algorithm-club                     	|
+| tmbd-year-std-genres-children 	| TMDB                  	| Time aggregation: Yearly; Statistical aggregation: Standard deviation; Hierarchy type: Genres; Filter: Kids titles.      	|
+| tmbd-year-std-genres-2krand   	| TMDB                  	| Time aggregation: Yearly; Statistical aggregation: Standard deviation; Hierarchy type: Genres; Filter: 2k random titles. 	|
+| atp-matches-allplayers-height 	| ATP                   	| ATP all matches winners grouped by surface, tourney name, winner hand and winner nationality.                            	|
+| MoviesHC9Y1W                  	| Movielens             	| 4 level hierarchy with cumulative count over 9 years with weekly aggregation periods.                                    	|
+| GitHubExo                     	| GitHub (legacy)       	| Lines of code count for 97 revisions between March 2012 and May 2017 of https://github.com/google/ExoPlayer              	|
+| gh-keras-m                    	| Github                	| Lines of code count for monthly revisions from https://github.com/keras-team/keras                                       	|
+| tmbd-year-cnt-genres-children 	| TMDB                  	| Time aggregation: Yearly; Statistical aggregation: Count; Hierarchy type: Genres; Filter: Kids titles.                   	|
+| GitHubHystrix                 	| GitHub (legacy)       	| Lines of code count for 61 revisions between March 2012 and May 2017 of https://github.com/Netflix/Hystrix               	|
+
+_(legacy)_ datasets come from [[1]](https://github.com/vissoft18/treemaps) and [[3]](https://ieeexplore.ieee.org/document/8019841/?reload=true).
+
 ## Dataset extraction
 #### GitHub
 
