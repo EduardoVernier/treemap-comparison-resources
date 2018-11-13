@@ -62,7 +62,9 @@ Datasets are named `wb-<indicator_id>`, where the _indicator_id_ is a unique cod
 
 For example: _wb-TX.VAL.MMTL.ZS.UN_ corresponds to "Ores and metals exports (% of merchandise exports)" and _wb-EN.URB.MCTY.TL.ZS_ corresponds to "Population in urban agglomerations of more than 1 million (% of total population)".
 
-A table with the mappings and meta information can be found [here](https://github.com/EduardoVernier/dataset-generator/blob/master/WorldBank/id_indicator_map.csv) in summary and [here](https://github.com/EduardoVernier/dataset-generator/blob/master/WorldBank/wb-series.csv) with descriptions, information about periodicity, aggregation method, limitations and exceptions, statistical concept and methodology, source, license type, etc.
+**The mapping of indicator ids to dataset descriptions can be found [here](https://github.com/EduardoVernier/dataset-generator/blob/master/WorldBank/id_indicator_map.csv)**.
+
+Addtional information about datasets can be found [here](https://github.com/EduardoVernier/dataset-generator/blob/master/WorldBank/wb-series.csv) with descriptions, information about periodicity, aggregation method, limitations and exceptions, statistical concept and methodology, source, license type, etc.
 
 #### TMDB
 
