@@ -37,7 +37,7 @@ The Rank Matrix (Fig 10) is generated nunnig the `Notebooks/RankMatrix.ipynb` fi
 ## Dataset extraction
 #### GitHub
 
-The dataset selection was done through the scrapping of the first 10 pages of [gitmostwanted.com](http://gitmostwanted.com/), which is a website that lists popular github repositories.
+The dataset selection (for those named `gh-*`) was done through the scrapping of the first 10 pages of [gitmostwanted.com](http://gitmostwanted.com/), which is a website that lists popular GitHub repositories.
 
 For the selected URLs (list can be found [here](https://github.com/EduardoVernier/dataset-generator/blob/master/GitHubMostWanted/repos.txt)), we run a python script that clones revisions of a repository with a given periodicity. For this batch, we used monthly extractions (-m), but the script takes a flag as argument that selects if it should clone yearly (-y), daily (-d), or all revisions (-a).
 
@@ -48,6 +48,9 @@ Datasets are named as `gh-<name_of_repository>-<periodicity>`.
 Ex.: _gh-svgo-m_ for the github.com/svg/svgo repository with last commit of month extraction (-m).
 
 The scripts and notebooks used for scrapping, metric collection and file generation can be found [here](https://github.com/EduardoVernier/dataset-generator/tree/master/GitHubMostWanted).
+
+The datasets that are named `GitHub*` where borrowed from previous works ([[1]](https://github.com/sibgrapi18/treemaps) and [[2]](https://github.com/vissoft18/treemaps)) that evaluated dynamic treemaps.
+
 
 #### WorldBank
 
