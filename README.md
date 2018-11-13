@@ -118,3 +118,6 @@ If the name contains the C of _\<cumulative\>_ it means we consider all ratings 
 The _\<collection_period\>_ indicates over how long a period we are collecting the data. The _\<aggregation_period\>_ indicates how much time passes between two samples. _Y_ indicates a year, _M_ indicates a month, _D_ indicates a day, _H_ indicates an hour.
 
 A few examples are: _Movies15M1D, Movies3Y3M, MoviesC4Y90H, MoviesH22Y7M, MoviesHC10Y2M._
+
+#### Flattened datasets
+Datasets prefixed by `f-*` have been flattened. They come from the same sources mentioned previously but they have no hierarchy in the data, that is, the tree has depth equals to 1.
