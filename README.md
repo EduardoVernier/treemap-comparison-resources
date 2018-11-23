@@ -106,7 +106,7 @@ Ex.: _gh-svgo-m_ for the github.com/svg/svgo repository with last commit of mont
 
 The scripts and notebooks used for scrapping, metric collection and file generation can be found [here](https://github.com/EduardoVernier/dataset-generator/tree/master/GitHubMostWanted).
 
-The datasets that are named `GitHub*` where borrowed from previous works ([[1]](https://github.com/sibgrapi18/treemaps) and [[2]](https://github.com/vissoft18/treemaps)) that evaluated dynamic treemaps.
+The datasets that are named `GitHub*` where borrowed from previous works ([[1]](https://github.com/sibgrapi18/treemaps) and [[2]](https://github.com/vissoft18/treemaps)) that evaluated dynamic treemaps. gh\* datasets were extracted in July 16, 2018. GitHub* datasets were extracted in May, 2017.
 
 
 #### WorldBank
@@ -121,7 +121,7 @@ For example: _wb-TX.VAL.MMTL.ZS.UN_ corresponds to "Ores and metals exports (% o
 
 **The mapping of indicator ids to dataset descriptions can be found [here](https://github.com/EduardoVernier/dataset-generator/blob/master/WorldBank/id_indicator_map.csv)**.
 
-Addtional information about datasets can be found [here](https://github.com/EduardoVernier/dataset-generator/blob/master/WorldBank/wb-series.csv) with descriptions, information about periodicity, aggregation method, limitations and exceptions, statistical concept and methodology, source, license type, etc.
+Addtional information about datasets can be found [here](https://github.com/EduardoVernier/dataset-generator/blob/master/WorldBank/wb-series.csv) with descriptions, information about periodicity, aggregation method, limitations and exceptions, statistical concept and methodology, source, license type, etc. These datasets were extracted in July 4, 2018.
 
 #### TMDB
 
@@ -156,7 +156,7 @@ This gives us 2 * 3 * 2 * 9 = 108 datasets. Datasets are named `tmdb-<periodicit
 For example:
 _tmbd-monthly-mean-genres-documentaries_ gives the average monthly rating for documentaries using the genre hierarchy and _tmbd-yearly-count-release-90s_ counts the number of reviews 90s titles received during each year using the hierarchy given by Year/Title.
 
-The code that generated the datasets is available [here](https://github.com/EduardoVernier/dataset-generator/tree/master/TMDB).
+The code that generated the datasets is available [here](https://github.com/EduardoVernier/dataset-generator/tree/master/TMDB). The datasets were generated July 14, 2018.
 
 #### Movielens
 The MovieLens database. This database contains 45,000 movies, 750,000 keywords attached to these movies, and 26 million time-stamped 0 to 5 star ratings over roughly 22 years. The naming convention for these files is as follows:
@@ -175,6 +175,8 @@ If the name contains the C of _\<cumulative\>_ it means we consider all ratings 
 The _\<collection_period\>_ indicates over how long a period we are collecting the data. The _\<aggregation_period\>_ indicates how much time passes between two samples. _Y_ indicates a year, _M_ indicates a month, _D_ indicates a day, _H_ indicates an hour.
 
 A few examples are: _Movies15M1D, Movies3Y3M, MoviesC4Y90H, MoviesH22Y7M, MoviesHC10Y2M._
+
+The datasets were generated February 10, 2018.
 
 #### Flattened datasets
 Datasets prefixed by `f-*` have been flattened. They come from the same sources mentioned previously but they have no hierarchy in the data, that is, the tree has depth equals to 1.
